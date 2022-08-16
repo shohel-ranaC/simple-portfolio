@@ -1,0 +1,97 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.name-hilights {
+  color: orange;
+}
+.header-container {
+  display: flex;
+}
+.description {
+  margin: 50px;
+  width: 50%;
+  height: 100%;
+}
+.description p {
+  text-align: justify;
+  color: gray;
+}
+.description h1 {
+  font-size: 3rem;
+}
+.profile-image {
+  margin: 50px;
+  width: 50%;
+}
+.image {
+  width: 90%;
+  height: 100%;
+}
+.btn-read-more {
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: orange;
+}
+/* ........second section start here...... */
+
+.dream-big-container {
+  display: flex;
+}
+.dream-description {
+  margin: 50px;
+  width: 50%;
+  height: 100%;
+}
+.dream-description p {
+  text-align: justify;
+  color: gray;
+}
+.dream-description h1 {
+  font-size: 3rem;
+}
+.profile-image {
+  margin: 50px;
+  width: 50%;
+}
+.image {
+  width: 90%;
+  height: 100%;
+}
+.btn-read-more {
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: orange;
+}
+/* ----------Third Section Css--------- */
+.experience-container {
+  display: flex;
+  height: 100%;
+}
+.first-card {
+  margin: 50px;
+  width: 50%;
+  height: 100%;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: justify;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.second-card {
+  margin: 50px;
+  width: 50%;
+  height: 100%;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: justify;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+h1 {
+  font-size: 2rem;
+}
+h4 {
+  color: orange;
+}
