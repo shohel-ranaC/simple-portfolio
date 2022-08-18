@@ -77,7 +77,7 @@ body {
   border-radius: 5px;
   padding: 20px;
   text-align: justify;
-  box-shadow: 5px 5px 5px 5px gray;
+  box-shadow: 10px 10px 30px gray;
 }
 .second-card {
   margin: 50px;
@@ -87,11 +87,31 @@ body {
   border-radius: 5px;
   padding: 20px;
   text-align: justify;
-  box-shadow: 5px 5px 5px 5px gray;
+  box-shadow: 10px 10px 30px gray;
 }
 h1 {
   font-size: 2rem;
 }
 h4 {
   color: orange;
+}
+#side-color-first-card {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, orange);
+  border-image-slice: 1;
+}
+#side-color-sencond-card {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, red, orange);
+  border-image-slice: 1;
+}
+.footer {
+  width: 100%;
+  margin-top: 20px;
+  background-color: black;
+  padding: 20px;
+}
+.footer p {
+  color: orange;
+  text-align: center;
 }
